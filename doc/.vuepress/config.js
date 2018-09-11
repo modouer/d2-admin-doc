@@ -120,6 +120,7 @@ module.exports = {
           '/zh/learn-knowledge/': sideBarKnowledge(),
           '/zh/sys-components/': sideBarSysComponents(),
           '/zh/sys-plugins/': sideBarSysPlugins(),
+          '/zh/sys-vuex/': sideBarSysVuex(),
           '/zh/article/': sideBarArticle('版本发布', 'Cookbook', '记录'),
           '/zh/ecosystem-d2-crud/': sideBarEcosystemD2Crud()
         }
@@ -194,6 +195,31 @@ function sideBarSysPlugins () {
         'error',
         'log',
         'console'
+      ]
+    }
+  ]
+}
+
+function sideBarSysVuex () {
+  return [
+    {
+      collapsable: false,
+      children: [
+        '',
+        'account',
+        'db',
+        'fullscreen',
+        'gray',
+        'log',
+        'menu',
+        'page',
+        'releases',
+        'search',
+        'size',
+        'theme',
+        'transition',
+        'ua',
+        'user'
       ]
     }
   ]
