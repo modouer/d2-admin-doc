@@ -37,6 +37,18 @@ v8.11.1
 推荐使用 [nrm](https://github.com/Pana/nrm) 管理 npm 源，不建议使用 cnpm
 :::
 
+## 没有自动打开浏览器
+
+如果您运行
+
+``` sh
+npm run serve
+npm run start
+npm run dev
+```
+
+其中任何一个，编译完成后没有自动打开浏览器，请尝试在本机安装 [vue-cli3](https://cli.vuejs.org/zh/) 后重新启动项目。
+
 ## node-sass 安装失败
 
 由于某些不可描述的原因，利用 npm 进行安装模块的时候会发生包下载失败的情况，node-sass 尤其的频繁，或者说 node-sass 的二进制文件是接近百分百失败的，即使用 yarn 安装也依旧在这个点失败，给出以下建议
