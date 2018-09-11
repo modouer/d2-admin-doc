@@ -861,11 +861,15 @@ this.$store.commit('d2admin/menu/asideCollapseLoad')
 
 当前页面
 
-### getters.keepAlive
+### state.keepAlive
+
+需要缓存的页面 name 数组
+
+### mutations.keepAliveRefresh
 
 #### 介绍
 
-从当前所有打开的多标签页里返回需要缓存的页面 name。
+打开一个新的页面。
 
 #### 参数
 
@@ -874,7 +878,59 @@ this.$store.commit('d2admin/menu/asideCollapseLoad')
 #### 示例
 
 ``` js
-this.$store.getters['d2admin/page/keepAlive']
+this.$store.commit('d2admin/page/keepAliveRefresh')
+```
+
+### mutations.keepAliveRemove
+
+#### 介绍
+
+删除一个页面的缓存设置。
+
+#### 参数
+
+| 参数名 | 介绍 | 必选 | 值类型 | 可选值 | 默认值 |
+| --- | --- | --- | --- | --- | --- |
+| name | route name | 必选 | String |  |  |
+
+#### 示例
+
+``` js
+this.$store.commit('d2admin/page/keepAliveRemove', 'page-name')
+```
+
+### mutations.keepAlivePush
+
+#### 介绍
+
+增加一个页面的缓存设置。
+
+#### 参数
+
+| 参数名 | 介绍 | 必选 | 值类型 | 可选值 | 默认值 |
+| --- | --- | --- | --- | --- | --- |
+| name | route name | 必选 | String |  |  |
+
+#### 示例
+
+``` js
+this.$store.commit('d2admin/page/keepAlivePush', 'page-name')
+```
+
+### mutations.keepAliveClean
+
+#### 介绍
+
+清空页面缓存设置。
+
+#### 参数
+
+无
+
+#### 示例
+
+``` js
+this.$store.commit('d2admin/page/keepAliveClean')
 ```
 
 ### mutations.open
