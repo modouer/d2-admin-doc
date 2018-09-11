@@ -869,7 +869,7 @@ this.$store.commit('d2admin/menu/asideCollapseLoad')
 
 #### 介绍
 
-打开一个新的页面。
+从已经打开的页面记录中更新需要缓存的页面记录。
 
 #### 参数
 
