@@ -41,13 +41,40 @@ v8.11.1
 
 如果您运行
 
-``` sh
+``` bash
 npm run serve
 npm run start
 npm run dev
 ```
 
 其中任何一个，编译完成后没有自动打开浏览器，请尝试在本机安装 [vue-cli3](https://cli.vuejs.org/zh/) 后重新启动项目。
+
+## 热更新失效
+
+如果使用了 cnpm，cnpm 使用 symlink，导致 webpack 打包的时候抒符号链接的包打包了两份，由于webpack/hot/emitter.js 为两个不同实例，导致 webpack hot/server webpackHotUpdate 无法触发，热更新失效。解决方法：设置 registry，不使用 cnpm。
+
+``` bash
+npm config set registry https://registry.npm.taobao.org
+npm install
+```
+
+如果上面的方法无效，尝试在 `vue.config.js` 中如下设置：
+
+``` js
+module.exports = {
+  chainWebpack: config => {
+    config.resolve
+      .symlinks(true)
+      return config
+  }
+}
+```
+
+如果不清楚怎么写可以参考新版 D2Admin 的配置。
+
+> There is a resolve.symlinks in webpack configuration, and it's default value is true. Howerver, project created by vue-cli, the resolve.symlinks is set to false.
+
+其它解决办法请参考 [vue-cli/issues/1559](https://github.com/vuejs/vue-cli/issues/1559)。
 
 ## node-sass 安装失败
 
