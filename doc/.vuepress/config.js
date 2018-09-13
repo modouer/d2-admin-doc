@@ -122,7 +122,7 @@ module.exports = {
           '/zh/sys-plugins/': sideBarSysPlugins(),
           '/zh/sys-vuex/': sideBarSysVuex(),
           '/zh/article/': sideBarArticle('版本发布', 'Cookbook', '记录'),
-          '/zh/ecosystem-d2-crud/': sideBarEcosystemD2Crud()
+          '/zh/ecosystem-d2-crud/': sideBarEcosystemD2Crud('D2 CRUD', '使用指南', 'API', '示例')
         }
       }
     }
@@ -258,14 +258,43 @@ function sideBarArticle (titleUpdate, titleCookbook, titleNote) {
   ]
 }
 
-function sideBarEcosystemD2Crud () {
+function sideBarEcosystemD2Crud (titleReadme, titleGuide, titleApi, titleExample) {
   return [
     {
+      title: titleReadme,
       collapsable: false,
       children: [
-        '',
-        'guide',
-        'api',
+        ''
+      ]
+    },
+    {
+      title: titleGuide,
+      collapsable: false,
+      children: [
+        'guide'
+      ]
+    },
+    {
+      title: titleApi,
+      collapsable: false,
+      children: [
+        'crud',
+        'events',
+        'slots',
+        'columns',
+        'options',
+        'index-row',
+        'selection-row',
+        'row-handle',
+        'add-button',
+        'form-template',
+        'form-options'
+      ]
+    },
+    {
+      title: titleExample,
+      collapsable: false,
+      children: [
         'example'
       ]
     }
