@@ -4,7 +4,7 @@
 
 用户信息
 
-## mutations.set
+## actions.set
 
 ### 介绍
 
@@ -16,15 +16,19 @@
 | --- | --- | --- | --- | --- | --- |
 | info | 用户数据 | 必选 | Object |  |  |
 
+### 返回
+
+promise
+
 ### 示例
 
 ``` js
-this.$store.commit('d2admin/user/set', {
-  name: 'my-name'
+this.$store.dispatch('d2admin/user/set', {
+  name: 'your name'
 })
 ```
 
-## mutations.load
+## actions.load
 
 ### 介绍
 
@@ -34,8 +38,12 @@ this.$store.commit('d2admin/user/set', {
 
 无
 
+### 返回
+
+promise
+
 ### 示例
 
 ``` js
-this.$store.commit('d2admin/user/load')
+this.$store.dispatch('d2admin/user/load')
 ```
