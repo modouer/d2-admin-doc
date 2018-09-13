@@ -19,6 +19,7 @@
 | 表尾合计行 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo13) |
 | 合并行 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo14) |
 | 合并列 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo15) |
+| 表格slot | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo24) |
 
 ## 数据操作
 
@@ -32,3 +33,5 @@
 | 表单布局 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo21) |
 | 表单校验 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo22) |
 | 表格内编辑 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo23) |
+| 表格自定义组件 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo25) |
+| 表单自定义组件 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo26) |
