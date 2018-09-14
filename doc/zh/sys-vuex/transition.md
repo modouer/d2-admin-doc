@@ -4,7 +4,7 @@
 
 是否开启页面过度动画
 
-## mutations.set
+## actions.set
 
 ### 介绍
 
@@ -16,16 +16,20 @@
 | --- | --- | --- | --- | --- | --- |
 | active | 新的值 | 必选 | Boolean |  |  |
 
+### 返回
+
+promise
+
 ### 示例
 
 ``` js
 // 打开页面动画
-this.$store.commit('d2admin/transition/set', true)
+this.$store.dispatch('d2admin/transition/set', true)
 // 关闭页面动画
-this.$store.commit('d2admin/transition/set', false)
+this.$store.dispatch('d2admin/transition/set', false)
 ```
 
-## mutations.load
+## actions.load
 
 ### 介绍
 
@@ -35,8 +39,12 @@ this.$store.commit('d2admin/transition/set', false)
 
 无
 
+### 返回
+
+promise
+
 ### 示例
 
 ``` js
-this.$store.commit('d2admin/transition/load')
+this.$store.dispatch('d2admin/transition/load')
 ```
