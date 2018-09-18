@@ -36,22 +36,6 @@ this.$store.getters['d2admin/log/length']
 this.$store.getters['d2admin/log/lengthError']
 ```
 
-## mutations.clean
-
-### 介绍
-
-清空日志。
-
-### 参数
-
-无
-
-### 示例
-
-``` js
-this.$store.commit('d2admin/log/clean')
-```
-
 ## actions.add
 
 ### 介绍
@@ -95,4 +79,20 @@ export default {
     }
   }
 }
+```
+
+## mutations.clean
+
+### 介绍
+
+清空日志。
+
+### 参数
+
+无
+
+### 示例
+
+``` js
+this.$store.commit('d2admin/log/clean')
 ```
