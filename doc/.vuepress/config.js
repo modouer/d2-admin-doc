@@ -288,7 +288,8 @@ function sideBarEcosystemD2Crud (titleReadme, titleGuide, titleApi, titleExample
         'row-handle',
         'add-button',
         'form-template',
-        'form-options'
+        'form-options',
+        'pagination'
       ]
     },
     {

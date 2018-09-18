@@ -21,6 +21,20 @@
 * 可选值: el-input / el-input-number / el-radio / el-checkbox / el-select / el-cascader / el-switch / el-slider / el-time-select / el-time-picker / el-date-picker / el-rate / el-color-picker / 自定义组件
 * 默认值: 无
 
+## component.show
+
+* 说明: 是否显示此项
+* 类型: Boolean
+* 可选值: 无
+* 默认值: true
+
+## component.disabled
+
+* 说明: 是否禁用此项
+* 类型: Boolean
+* 可选值: 无
+* 默认值: false
+
 ## component.span
 
 * 说明: 表单布局所占栅格数，栅格布局请参考 [Layout 布局](http://element-cn.eleme.io/#/zh-CN/component/layout)
