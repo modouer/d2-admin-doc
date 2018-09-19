@@ -4,7 +4,27 @@
 
 当前的全屏状态激活标识
 
-## mutations.toggle
+## actions.listen
+
+### 介绍
+
+初始化监听。
+
+### 参数
+
+无
+
+### 返回
+
+promise
+
+### 示例
+
+``` js
+this.$store.dispatch('d2admin/fullscreen/listen')
+```
+
+## actions.toggle
 
 ### 介绍
 
@@ -14,10 +34,14 @@
 
 无
 
+### 返回
+
+promise
+
 ### 示例
 
 ``` js
-this.$store.commit('d2admin/fullscreen/toggle')
+this.$store.dispatch('d2admin/fullscreen/toggle')
 ```
 
 ## mutations.set

@@ -28,6 +28,22 @@
 this.$store.dispatch('d2admin/releases/checkUpdate')
 ```
 
+## mutations.versionShow
+
+### 介绍
+
+显示版本信息。
+
+### 参数
+
+无
+
+### 示例
+
+``` js
+this.$store.commit('d2admin/releases/versionShow')
+```
+
 ## mutations.updateSet
 
 ### 介绍

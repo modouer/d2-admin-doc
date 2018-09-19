@@ -4,7 +4,7 @@
 
 全局尺寸
 
-## mutations.set
+## actions.set
 
 ### 介绍
 
@@ -16,13 +16,17 @@
 | --- | --- | --- | --- | --- | --- |
 | size | 尺寸 | 必选 | String |  |  |
 
+### 返回
+
+promise
+
 ### 示例
 
 ``` js
-this.$store.commit('d2admin/size/set', 'mini')
+this.$store.dispatch('d2admin/size/set', 'mini')
 ```
 
-## mutations.load
+## actions.load
 
 ### 介绍
 
@@ -32,8 +36,12 @@ this.$store.commit('d2admin/size/set', 'mini')
 
 无
 
+### 返回
+
+promise
+
 ### 示例
 
 ``` js
-this.$store.commit('d2admin/size/load')
+this.$store.dispatch('d2admin/size/load')
 ```
