@@ -12,6 +12,71 @@
 
 侧边栏的折叠状态
 
+## actions.asideCollapseSet
+
+### 介绍
+
+设置侧边栏展开或者收缩。
+
+### 参数
+
+| 参数名 | 介绍 | 必选 | 值类型 | 可选值 | 默认值 |
+| --- | --- | --- | --- | --- | --- |
+| collapse | 新的值 | 必选 | Boolean |  |  |
+
+### 返回
+
+promise
+
+### 示例
+
+``` js
+// 折叠侧边栏菜单
+this.$store.dispatch('d2admin/menu/asideCollapseSet', true)
+// 展开侧边栏菜单
+this.$store.dispatch('d2admin/menu/asideCollapseSet', false)
+```
+
+## actions.asideCollapseToggle
+
+### 介绍
+
+切换侧边栏展开和收缩。
+
+### 参数
+
+无
+
+### 返回
+
+promise
+
+### 示例
+
+``` js
+this.$store.dispatch('d2admin/menu/asideCollapseToggle')
+```
+
+## actions.asideCollapseLoad
+
+### 介绍
+
+从持久化数据读取侧边栏展开或者收缩。
+
+### 参数
+
+无
+
+### 返回
+
+promise
+
+### 示例
+
+``` js
+this.$store.dispatch('d2admin/menu/asideCollapseLoad')
+```
+
 ## mutations.headerSet
 
 ### 介绍
@@ -152,56 +217,3 @@ this.$store.commit('d2admin/menu/asideSet', menu)
 ```
 
 menu 的格式同 mutations.headerSet
-
-## mutations.asideCollapseSet
-
-### 介绍
-
-设置侧边栏展开或者收缩。
-
-### 参数
-
-| 参数名 | 介绍 | 必选 | 值类型 | 可选值 | 默认值 |
-| --- | --- | --- | --- | --- | --- |
-| collapse | 新的值 | 必选 | Boolean |  |  |
-
-### 示例
-
-``` js
-// 折叠侧边栏菜单
-this.$store.commit('d2admin/menu/asideCollapseSet', true)
-// 展开侧边栏菜单
-this.$store.commit('d2admin/menu/asideCollapseSet', false)
-```
-
-## mutations.asideCollapseToggle
-
-### 介绍
-
-切换侧边栏展开和收缩。
-
-### 参数
-
-无
-
-### 示例
-
-``` js
-this.$store.commit('d2admin/menu/asideCollapseToggle')
-```
-
-## mutations.asideCollapseLoad
-
-### 介绍
-
-从持久化数据读取侧边栏展开或者收缩。
-
-### 参数
-
-无
-
-### 示例
-
-``` js
-this.$store.commit('d2admin/menu/asideCollapseLoad')
-```

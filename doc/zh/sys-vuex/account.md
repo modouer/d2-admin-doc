@@ -72,7 +72,7 @@ this.$store.dispatch('d2admin/account/logout', {
 })
 ```
 
-## mutations.load
+## actions.load
 
 ### 介绍
 
@@ -93,5 +93,5 @@ this.$store.dispatch('d2admin/account/logout', {
 ### 示例
 
 ``` js
-this.$store.commit('d2admin/account/load')
+this.$store.dispatch('d2admin/account/load')
 ```

@@ -24,7 +24,7 @@
 this.$store.getters['d2admin/theme/activeSetting']
 ```
 
-## mutations.set
+## actions.set
 
 ### 介绍
 
@@ -36,13 +36,17 @@ this.$store.getters['d2admin/theme/activeSetting']
 | --- | --- | --- | --- | --- | --- |
 | themeName | 需要激活的主题名称 | 必选 | String |  |  |
 
+### 返回
+
+promise
+
 ### 示例
 
 ``` js
-this.$store.commit('d2admin/theme/set', 'd2')
+this.$store.dispatch('d2admin/theme/set', 'd2')
 ```
 
-## mutations.load
+## actions.load
 
 ### 介绍
 
@@ -52,10 +56,14 @@ this.$store.commit('d2admin/theme/set', 'd2')
 
 无
 
+### 返回
+
+promise
+
 ### 示例
 
 ``` js
-this.$store.commit('d2admin/theme/load')
+this.$store.dispatch('d2admin/theme/load')
 ```
 
 ## mutations.dom
