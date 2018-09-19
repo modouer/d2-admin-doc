@@ -5,6 +5,8 @@
 | 示例 | 代码与演示 |
 | --- | --- |
 | 基础表格 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo1) |
+| 加载状态 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo27) |
+| 自定义加载状态 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo28) |
 | 带斑马纹表格 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo2) |
 | 带边框表格 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo3) |
 | 带状态表格 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo4) |
@@ -25,6 +27,7 @@
 
 | 示例 | 代码与演示 |
 | --- | --- |
+| 分页 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo29) |
 | 新增数据 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo16) |
 | 修改数据 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo17) |
 | 删除数据 | [:link: Link](https://d2-projects.github.io/d2-admin/#/demo/d2-crud/demo18) |
