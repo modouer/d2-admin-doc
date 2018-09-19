@@ -283,6 +283,7 @@ function sideBarEcosystemD2Crud (titleReadme, titleGuide, titleApi, titleExample
         'slots',
         'columns',
         'options',
+        'loading-options',
         'index-row',
         'selection-row',
         'row-handle',

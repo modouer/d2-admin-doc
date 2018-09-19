@@ -28,6 +28,20 @@
 * 可选值: 无
 * 默认值: 无
 
+## loading
+
+* 说明: 表格加载状态
+* 类型: Boolean
+* 可选值: 无
+* 默认值: false
+
+## loading-options
+
+* 说明: 表格加载配置数据，具体配置请参考 [loading-options](./loading-options.md)
+* 类型: Object
+* 可选值: 无
+* 默认值: 无
+
 ## index-row
 
 * 说明: 索引，具体配置项请参考 [index-row](./index-row.md)
