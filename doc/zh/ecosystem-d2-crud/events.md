@@ -94,3 +94,23 @@
 
 * 说明: 当表格删除数据的时候会触发该事件
 * 参数: index, row, done
+
+## pagination-size-change
+
+* 说明: 当分页 pageSize 改变时会触发
+* 参数: pageSize
+
+## pagination-current-change
+
+* 说明: 当分页 currentPage 改变时会触发
+* 参数: currentPage
+
+## pagination-prev-click
+
+* 说明: 当分页上一页按钮被用户点击改变当前页后触发
+* 参数: currentPage
+
+## pagination-next-click
+
+* 说明: 当分页下一页按钮被用户点击改变当前页后触发
+* 参数: currentPage
