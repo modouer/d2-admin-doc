@@ -18,7 +18,9 @@ module.exports = {
   ],
   themeConfig: {
     // 项目仓库地址
-    repo: 'https://github.com/d2-projects/d2-admin-doc',
+    repo: 'd2-projects/d2-admin',
+    // 文档仓库地址
+    docsRepo: 'd2-projects/d2-admin-doc',
     // 文档不是放在仓库的根目录下
     docsDir: 'doc',
     // 默认是 false, 设置为 true 来启用
