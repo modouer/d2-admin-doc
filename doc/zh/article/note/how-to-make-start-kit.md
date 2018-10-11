@@ -12,35 +12,35 @@
 
 在本地建立一个新功能：
 
-![](http://qiniu.fairyever.com/20180904140651.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniudn.fairyever.com/20180904140651.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 名称和现在完整版最新的版本号对应：
 
-![](http://qiniu.fairyever.com/20180904140839.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniudn.fairyever.com/20180904140839.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
-![](http://qiniu.fairyever.com/20180904140918.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniudn.fairyever.com/20180904140918.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 新的分支：
 
-![](http://qiniu.fairyever.com/20180904140950.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniudn.fairyever.com/20180904140950.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ## 备份和替换文件
 
 删除依赖：
 
-![](http://qiniu.fairyever.com/20180904141557.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniudn.fairyever.com/20180904141557.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 备份文件：
 
-![](http://qiniu.fairyever.com/20180904141636.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniudn.fairyever.com/20180904141636.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 删除原始项目文件：
 
-![](http://qiniu.fairyever.com/20180904141727.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniudn.fairyever.com/20180904141727.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 复制完整版的项目文件至简化版项目：
 
-![](http://qiniu.fairyever.com/20180904141835.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniudn.fairyever.com/20180904141835.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ## 删除文件夹
 
@@ -57,7 +57,7 @@
 
 只保留两个系统图标：
 
-![](http://qiniu.fairyever.com/20180904143712.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniudn.fairyever.com/20180904143712.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ## 删除无用的样式补丁
 
@@ -151,7 +151,7 @@ export default [
 
 从简化版的备份中将三个示例页面放到新的项目中：
 
-![](http://qiniu.fairyever.com/20180904144230.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniudn.fairyever.com/20180904144230.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ## 删除插件
 
@@ -318,6 +318,6 @@ npm run dev
 
 ## 提交代码
 
-![](http://qiniu.fairyever.com/20180904152221.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniudn.fairyever.com/20180904152221.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 如果是小改动的话可以只覆盖某些文件，无需像本文中介绍这样全部重新覆盖。
