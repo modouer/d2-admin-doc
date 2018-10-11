@@ -24,7 +24,7 @@
 
 ## 飞冰是什么
 
-![](http://qiniu.fairyever.com/20180803020053.png)
+![](http://qiniudn.fairyever.com/20180803020053.png)
 
 "海量可复用物料，通过 GUI 工具极速构建中后台应用"。
 
@@ -46,15 +46,15 @@
 
 > 原始网页链接 [https://alibaba.github.io/ice/block](https://alibaba.github.io/ice/block)
 
-![](http://qiniu.fairyever.com/20180803005118.jpg)
+![](http://qiniudn.fairyever.com/20180803005118.jpg)
 
 目前为止 ICE 已经支持 react vue Angular 三大主流框架的物料资源
 
-![](http://qiniu.fairyever.com/20180803005219.png)
+![](http://qiniudn.fairyever.com/20180803005219.png)
 
 打比方我现在项目需要富文本编辑器，可以看到区块里提供了三款编辑器可供选择
 
-![](http://qiniu.fairyever.com/20180803005411.png)
+![](http://qiniudn.fairyever.com/20180803005411.png)
 
 所有的这些，都是使用 GUI 就可以加入到项目中使用的，下面将会展示如何从安装 iceworks 客户端到在项目中新建页面。
 
@@ -68,33 +68,33 @@
 
 iceworks 下载地址 [https://alibaba.github.io/ice/iceworks](https://alibaba.github.io/ice/iceworks)
 
-![](http://qiniu.fairyever.com/20180803005813.png)
+![](http://qiniudn.fairyever.com/20180803005813.png)
 
 稍微等待了一会儿，下载完成。安装后得到了这样一个 App：
 
-![](http://qiniu.fairyever.com/20180803010417.png)
+![](http://qiniudn.fairyever.com/20180803010417.png)
 
 ### 上手
 
 安装后打开看到一个很简单的界面：
 
-![](http://qiniu.fairyever.com/20180803010628.png)
+![](http://qiniudn.fairyever.com/20180803010628.png)
 
 切换到模板标签可以看到飞冰目前提供的脚手架列表：
 
-![](http://qiniu.fairyever.com/20180803010704.png)
+![](http://qiniudn.fairyever.com/20180803010704.png)
 
 区块标签可以看到区块列表
 
-![](http://qiniu.fairyever.com/20180803011044.gif)
+![](http://qiniudn.fairyever.com/20180803011044.gif)
 
 插件
 
-![](http://qiniu.fairyever.com/20180803011128.png)
+![](http://qiniudn.fairyever.com/20180803011128.png)
 
 设置
 
-![](http://qiniu.fairyever.com/20180803011150.png)
+![](http://qiniudn.fairyever.com/20180803011150.png)
 
 这就是表面上所有的功能，下面我们来建一个项目体验一下
 
@@ -102,11 +102,11 @@ iceworks 下载地址 [https://alibaba.github.io/ice/iceworks](https://alibaba.g
 
 飞冰是从 react 开始做的，现在 vue 和 Angular 物料源还比较少，我们切换到 vue 选项卡里...
 
-![](http://qiniu.fairyever.com/20180803011329.png)
+![](http://qiniudn.fairyever.com/20180803011329.png)
 
 **是不是混进了什么奇怪的东西！**
 
-![](http://qiniu.fairyever.com/20180803011519.png)
+![](http://qiniudn.fairyever.com/20180803011519.png)
 
 没错，D2Admin 出了 ICE 版！
 
@@ -114,21 +114,21 @@ iceworks 下载地址 [https://alibaba.github.io/ice/iceworks](https://alibaba.g
 
 选择 D2Admin ICE 作为起始模板后会让我们填写项目保存地址：
 
-![](http://qiniu.fairyever.com/20180803011843.png)
+![](http://qiniudn.fairyever.com/20180803011843.png)
 
 填写完成后开始下载模板，下载后会提示我是否要立刻安装依赖：
 
-![](http://qiniu.fairyever.com/20180803012018.gif)
+![](http://qiniudn.fairyever.com/20180803012018.gif)
 
 为了避免动态图过大我没有录安装过程：
 
-![](http://qiniu.fairyever.com/20180803012215.png)
+![](http://qiniudn.fairyever.com/20180803012215.png)
 
 在写上面的时候已经提示我依赖安装完成了（很人性化有没有）：
 
-![](http://qiniu.fairyever.com/20180803012311.png)
+![](http://qiniudn.fairyever.com/20180803012311.png)
 
-![](http://qiniu.fairyever.com/20180803012346.png)
+![](http://qiniudn.fairyever.com/20180803012346.png)
 
 ennn...没毛病。
 
@@ -136,63 +136,63 @@ ennn...没毛病。
 
 点击 `启动调试服务` 会在本地打开调试服务，vue 项目默认执行的是 `npm start`：
 
-![](http://qiniu.fairyever.com/20180803012548.gif)
+![](http://qiniudn.fairyever.com/20180803012548.gif)
 
 打开显示的链接，可以看到项目已经稳稳地跑起来了：
 
-![](http://qiniu.fairyever.com/20180803012748.png)
+![](http://qiniudn.fairyever.com/20180803012748.png)
 
 D2Admin ICE 实质上是 [d2-admin-start-kit](https://github.com/d2-projects/d2-admin-start-kit) 的特别版本，为适应 ICE 的逻辑修改了一部分代码，可以看到模板十分干净，没有了任何完整版的示例 demo：
 
-![](http://qiniu.fairyever.com/20180803012914.png)
+![](http://qiniudn.fairyever.com/20180803012914.png)
 
 关闭 ICE 内集成的终端后可以看到项目面板，可以显示出现在有哪些页面，安装了哪些依赖等：
 
-![](http://qiniu.fairyever.com/20180803013159.png)
+![](http://qiniudn.fairyever.com/20180803013159.png)
 
 ### 新建页面
 
 点击 `新建页面` 会打开新建页面界面：
 
-![](http://qiniu.fairyever.com/20180803013712.png)
+![](http://qiniudn.fairyever.com/20180803013712.png)
 
 随便选择一个区块新建一个页面（中间的等待时间是 iceworks 在从 npm 下载区块代码）
 
-![](http://qiniu.fairyever.com/20180803013831.gif)
+![](http://qiniudn.fairyever.com/20180803013831.gif)
 
 选择区块：
 
-![](http://qiniu.fairyever.com/20180803014037.png)
+![](http://qiniudn.fairyever.com/20180803014037.png)
 
 效果：
 
-![](http://qiniu.fairyever.com/20180803014058.png)
+![](http://qiniudn.fairyever.com/20180803014058.png)
 
 下面尝试一下选择多个区块：
 
-![](http://qiniu.fairyever.com/20180803014157.png)
+![](http://qiniudn.fairyever.com/20180803014157.png)
 
-![](http://qiniu.fairyever.com/20180803014244.png)
+![](http://qiniudn.fairyever.com/20180803014244.png)
 
 自动生成了菜单：
 
-![](http://qiniu.fairyever.com/20180803014402.png)
+![](http://qiniudn.fairyever.com/20180803014402.png)
 
 页面效果：
 
-![](http://qiniu.fairyever.com/20180803014605.gif)
+![](http://qiniudn.fairyever.com/20180803014605.gif)
 
 检查一下自动生成的代码目录：
 
-![](http://qiniu.fairyever.com/20180803014743.png)
+![](http://qiniudn.fairyever.com/20180803014743.png)
 
 自动生成的页面组件：
 
-![](http://qiniu.fairyever.com/20180803015016.png)
+![](http://qiniudn.fairyever.com/20180803015016.png)
 
 自动生成的样式文件：
 
-![](http://qiniu.fairyever.com/20180803015047.png)
+![](http://qiniudn.fairyever.com/20180803015047.png)
 
 该有的都有了，不该有的也有了，连生命周期钩子都帮你写了一遍！
 
@@ -219,7 +219,7 @@ D2Admin ICE 将会保持和 D2Admin Start Kit 一致更新，如果你看到完�
 
 开源项目组官方公众号
 
-<img src="http://qiniu.fairyever.com/20180801111123.jpg" style="width: 200px;"/>
+<img src="http://qiniudn.fairyever.com/20180801111123.jpg" style="width: 200px;"/>
 
 [本文在项目文档中收录位置](http://app.d3collection.cn/d2-admin-doc/lastest/zh/article/update/ice-1.1.2.html)
 
