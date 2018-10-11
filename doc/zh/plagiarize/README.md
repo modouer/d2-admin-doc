@@ -26,12 +26,12 @@ sidebar: auto
 
 | D2Admin | nx-admin |
 | --- | --- |
-| ![](http://fairyever.qiniudn.com/20180727103812.png) | ![](http://fairyever.qiniudn.com/20180727103329.png) |
-| ![](http://fairyever.qiniudn.com/20180727103923.png) | ![](http://fairyever.qiniudn.com/20180727103931.png) |
-| ![](http://fairyever.qiniudn.com/20180727104208.png) | ![](http://fairyever.qiniudn.com/20180727104213.png) |
-| ![](http://fairyever.qiniudn.com/20180727104225.png) | ![](http://fairyever.qiniudn.com/20180727104232.png) |
-| ![](http://fairyever.qiniudn.com/20180727104240.png) | ![](http://fairyever.qiniudn.com/20180727104245.png) |
-| ![](http://fairyever.qiniudn.com/20180729104137.png) | ![](http://fairyever.qiniudn.com/20180729104152.png) |
+| ![](http://qiniu.fairyever.com/20180727103812.png) | ![](http://qiniu.fairyever.com/20180727103329.png) |
+| ![](http://qiniu.fairyever.com/20180727103923.png) | ![](http://qiniu.fairyever.com/20180727103931.png) |
+| ![](http://qiniu.fairyever.com/20180727104208.png) | ![](http://qiniu.fairyever.com/20180727104213.png) |
+| ![](http://qiniu.fairyever.com/20180727104225.png) | ![](http://qiniu.fairyever.com/20180727104232.png) |
+| ![](http://qiniu.fairyever.com/20180727104240.png) | ![](http://qiniu.fairyever.com/20180727104245.png) |
+| ![](http://qiniu.fairyever.com/20180729104137.png) | ![](http://qiniu.fairyever.com/20180729104152.png) |
 
 ## avue
 
@@ -43,7 +43,7 @@ sidebar: auto
 
 | D2Admin | avue |
 | --- | --- |
-| ![](http://fairyever.qiniudn.com/20180729105741.png) | ![](http://fairyever.qiniudn.com/20180729105748.png) |
-| ![](http://fairyever.qiniudn.com/20180729110207.png) | ![](http://fairyever.qiniudn.com/20180729110231.png) |
-| ![](http://fairyever.qiniudn.com/20180729105822.png) | ![](http://fairyever.qiniudn.com/20180729105839.png) |
-| ![](http://fairyever.qiniudn.com/20180729105855.png) | ![](http://fairyever.qiniudn.com/20180729105908.png) |
+| ![](http://qiniu.fairyever.com/20180729105741.png) | ![](http://qiniu.fairyever.com/20180729105748.png) |
+| ![](http://qiniu.fairyever.com/20180729110207.png) | ![](http://qiniu.fairyever.com/20180729110231.png) |
+| ![](http://qiniu.fairyever.com/20180729105822.png) | ![](http://qiniu.fairyever.com/20180729105839.png) |
+| ![](http://qiniu.fairyever.com/20180729105855.png) | ![](http://qiniu.fairyever.com/20180729105908.png) |
