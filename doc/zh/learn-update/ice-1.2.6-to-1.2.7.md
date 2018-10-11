@@ -20,37 +20,37 @@ D2Admin 1.1.5 - 1.2.0 之间修复了一些之前的错误，有一些小的功�
 
 初始化成功后您应该有两个项目：
 
-![](http://fairyever.qiniudn.com/20180826155154.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniu.fairyever.com/20180826155154.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ### 移动页面文件
 
 如果您使用飞冰创建的页面，您的业务页面应该在 pages 目录下，例如下图中的 page6 文件夹：
 
-![](http://fairyever.qiniudn.com/20180826155652.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniu.fairyever.com/20180826155652.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 将您的业务代码文件全部转移至新版项目的 pages 目录：
 
-![](http://fairyever.qiniudn.com/20180826160031.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniu.fairyever.com/20180826160031.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ### 更新路由和菜单
 
 将旧版本中的 menuConfig.js 和 routerConfig.js 移动到新项目中的同样位置，替换新版本初始化时的默认文件：
 
-![](http://fairyever.qiniudn.com/20180826160219.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniu.fairyever.com/20180826160219.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 移动到新文件夹：
 
-![](http://fairyever.qiniudn.com/20180826160642.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniu.fairyever.com/20180826160642.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 选择替换已有文件：
 
-![](http://fairyever.qiniudn.com/20180826160659.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniu.fairyever.com/20180826160659.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ### 更新 package.json
 
 由于您之前的项目中会使用一些区块，区块在创建在您的项目里时会自动在 package.json 文件中新增相关依赖，现在您需要手动将这些依赖添加到新的项目中：
 
-![](http://fairyever.qiniudn.com/20180826161511.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniu.fairyever.com/20180826161511.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ::: tip
 lodash.uniqueid 这个插件不需要添加到新的项目中，新项目中全量引入了 lodash
@@ -58,13 +58,13 @@ lodash.uniqueid 这个插件不需要添加到新的项目中，新项目中全�
 
 ### 重新安装依赖
 
-![](http://fairyever.qiniudn.com/20180826160847.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniu.fairyever.com/20180826160847.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ### 启动新的项目
 
 重新安装依赖完成后启动新的项目，即完成了旧项目的升级工作。
 
-![](http://fairyever.qiniudn.com/20180826162202.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniu.fairyever.com/20180826162202.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ## 特殊情况
 
@@ -81,13 +81,13 @@ lodash.uniqueid 这个插件不需要添加到新的项目中，新项目中全�
 
 旧版的 d2admin 模块所有代码写在了一个文件中：
 
-![](http://fairyever.qiniudn.com/20180826162820.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniu.fairyever.com/20180826162820.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 导致这个模块看起来足够混乱以至于在修改某些功能时很不容易找到相关的代码。
 
 新版的 D2Admin ICE 针对这部分做了优化，将这个模块根据功能进行了拆分：
 
-![](http://fairyever.qiniudn.com/20180826163056.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniu.fairyever.com/20180826163056.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 这样在您需要修改某些功能时可以更快速地找到对应的代码位置。但是相应而来的是模块中的方法在调用时的方法都发生了变化，以登录为例：
 

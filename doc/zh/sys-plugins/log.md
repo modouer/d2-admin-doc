@@ -4,11 +4,11 @@
 
 示例：
 
-![](http://fairyever.qiniudn.com/20180820174810.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniu.fairyever.com/20180820174810.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 查看日志：
 
-![](http://fairyever.qiniudn.com/20180820174524.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](http://qiniu.fairyever.com/20180820174524.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 使用方式：
 
