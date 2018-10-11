@@ -1,6 +1,6 @@
 # D2 Admin 介绍
 
-![](http://fairyever.qiniudn.com/20180821142809.png)
+![](http://qiniu.fairyever.com/20180821142809.png)
 
 [D2Admin](https://github.com/d2-projects/d2-admin) 是一个开源的管理系统前端集成方案，为了方便开发者快速进行管理系统开发而设计，提供了大量开箱即用的功能：
 

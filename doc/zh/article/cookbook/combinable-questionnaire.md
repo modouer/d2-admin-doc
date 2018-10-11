@@ -2,13 +2,13 @@
 
 本案例将会讲解如何使用 vue.js + ElementUI 开发一个简单的 **可配置组合表单 Demo**。
 
-![](http://fairyever.qiniudn.com/20180801111723.png)
+![](http://qiniu.fairyever.com/20180801111723.png)
 
 示例源代码 [github](https://github.com/d2-projects/d2-demos/tree/master/combinable-questionnaire)
 
 操作演示：
 
-![](http://fairyever.qiniudn.com/20180801093848.gif)
+![](http://qiniu.fairyever.com/20180801093848.gif)
 
 在左侧新建表单区块，选择区块标题和表单组件类型后点击确定，会在中间区域生成一个块新的表单，右侧展示了所有表单的数据合并结果。
 
@@ -35,7 +35,7 @@
 
 这个 demo 的所有组件和逻辑如果写在一个文件中大概会有几百行，维护起来会有麻烦，所以首先设计这样的目录结构：
 
-![](http://fairyever.qiniudn.com/20180801100402.jpg)
+![](http://qiniu.fairyever.com/20180801100402.jpg)
 
 ## 搭建基本框架
 
@@ -681,11 +681,11 @@ export default {
 
 这是一个很小但是涉及知识还不算少的小例子，如果上面的代码你有疑惑，可以来 D2 Projects 的 QQ 交流群 806395827 提问。
 
-<img src="http://fairyever.qiniudn.com/20180801111951.JPG" style="width: 200px;"/>
+<img src="http://qiniu.fairyever.com/20180801111951.JPG" style="width: 200px;"/>
 
 本文首发于 D2 开源项目组官方公众号 D2 Projects
 
-<img src="http://fairyever.qiniudn.com/20180801111123.jpg" style="width: 200px;"/>
+<img src="http://qiniu.fairyever.com/20180801111123.jpg" style="width: 200px;"/>
 
 ## 参考
 

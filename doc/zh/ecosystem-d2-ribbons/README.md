@@ -25,12 +25,12 @@ D2 Ribbons 是一套为开发者准备的开源社区绶带资源，你你可以
 
 萌生做这么一个项目是从做 [D2Admin](https://github.com/d2-projects/d2-admin) 的时候，我想给我的项目页面角落加一个 “Fork me on github”，然后我就找了几个开源项目想看看他们用的是什么图片，都不很理想，后来找到了 Github 官方的 ribbons，但是和我的项目风格不是很搭配，Github 官方的 ribbons 还是以前的拟物风格，我希望有一个比较“扁平化”的绶带放在上面，于是我就临时画了一个放上去了，长这个样子：
 
-![Snip20180711_32](http://fairyever.qiniudn.com/Snip20180711_32.png)
+![Snip20180711_32](http://qiniu.fairyever.com/Snip20180711_32.png)
 
 于是之后我就画了大概半天的事件，画了一套 ribbons 给以后用，自己用，也希望大家能用到，不仅有 github，还有 gitlab 和码云的版本，暂时只做了这些，以后有好的想法了再添加。
 
-![Snip20180711_27](http://fairyever.qiniudn.com/Snip20180711_27.png)
-![Snip20180711_29](http://fairyever.qiniudn.com/Snip20180711_29.png)
+![Snip20180711_27](http://qiniu.fairyever.com/Snip20180711_27.png)
+![Snip20180711_29](http://qiniu.fairyever.com/Snip20180711_29.png)
 
 > 所有的东西都出自一个程序员之手，没有经过专业的设计学习，请大家觉得丑的话轻喷
 
