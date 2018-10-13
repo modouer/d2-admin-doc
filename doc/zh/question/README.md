@@ -277,6 +277,10 @@ export default {
 只要调用过 mock.js 的 mock 方法，他就会劫持 window 的 XMLHttpRequest 对象，用一个自己的 XHR 替换，那里面withCredentials 是 false 的，所以无法携带 cookie。
 :::
 
+::: tip 补充
+此问题在 [版本 1.5.3](https://github.com/d2-projects/d2-admin/releases/tag/1.5.3) 已经提供解决方案。
+:::
+
 ## 删除页面右上角 github 链接
 
 在 `src/components/demo/d2-demo-page-cover/index.vue` 中删除相关代码即可
