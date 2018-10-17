@@ -193,3 +193,24 @@ export default {
 ::: tip
 虽然没有强制规定，请注意您的 API 文件夹结构规律性
 :::
+
+## 跨域问题
+
+如果您的前端项目和后端接口发生跨域，可以在本地配置代理：
+
+``` js
+devServer: {
+  proxy: {
+    '/api': {
+      target: 'http://47.100.186.132/your-path/api',
+      ws: true,
+      changeOrigin: true,
+      pathRewrite: {
+        '^/api': ''
+      }
+    }
+  }
+}
+```
+
+上述配置的结果是在请求 `/api/login` 时转发到 `http://47.100.186.132/your-path/api/login`。更多文档见 [Vue CLI 3 | devServer.proxy](https://cli.vuejs.org/zh/config/#devserver-proxy)
