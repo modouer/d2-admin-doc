@@ -94,6 +94,11 @@ this.$export.excel({
 | columns | 列 | 非 | Array |  | 空数组 |
 | data | 行数据 | 非 | Array |  | 空数组 |
 | title | 文件名 | 非 | String |  | table |
+| header | 第一行文字 | 非 | String |  | null |
+| merges | 要合并的单元格 | 非 | Array |  | 空数组 |
+
+合并单元格，根据 Excel 的表达方式，从第一行第一个单元格，到第一行第三个单元格：`merges: ['A1', 'A3']`，
+多个合并区域，用二维数组表示：`merges: [['A1', 'B1'], ['A2', B2]]`，单元格从A1到B1、从A2到B2，分别进行合并。
 
 示例
 
@@ -120,7 +125,9 @@ const data = [
 ]
 this.$export.excel({
   columns,
-  data
+  data,
+  header: 'Excel 第一行标题',
+  merges: ['A1', 'A2']
 })
 ```
 
