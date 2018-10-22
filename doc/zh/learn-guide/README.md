@@ -19,7 +19,7 @@ D2Admin 是一个开源的管理系统前端集成方案
 	<a><img src="https://img.shields.io/github/stars/d2-projects/d2-admin.svg"/></a>
 </p>
 
-![](http://qiniudn.fairyever.com/20180921213013.png)
+![](https://qiniucdn.fairyever.com/20180921213013.png)
 
 **完整版**
 

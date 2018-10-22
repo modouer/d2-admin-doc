@@ -12,13 +12,13 @@ D2Admin 数据持久化依赖浏览器的 LocalStorage，使用 [lowdb](https://
 
 在 `src/store/modules/d2admin/modules/db.js` 文件中提供了4组共9个方法读写持久化数据
 
-![](http://qiniudn.fairyever.com/20180820235417.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180820235417.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ## 我应该选择哪种方式
 
 有可能您会对如何选择持久化存储的 API 感到困惑，下图会帮助您在存储数据时，根据您的需要选择合适的存储方法：
 
-![](http://qiniudn.fairyever.com/20180822223058.png)
+![](https://qiniucdn.fairyever.com/20180822223058.png)
 
 如果是希望读取数据，依旧遵循上图的选择条件。具体的方法介绍见本页面其它章节，具体 API 详见 [vuex db 模块](/zh/sys-vuex/db.md)
 
@@ -149,7 +149,7 @@ const db = await this.$store.dispatch('d2admin/db/databasePage', {
 不要被这张图吓到，在您使用过程中根本不会对这个结构有任何感知，API 会直接返回供您操作的节点。
 :::
 
-![](http://qiniudn.fairyever.com/20180821090300.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821090300.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 这张图体现了数据的普通存储、用户存储、路由存储、私有路由存储、路由快照以及私有路由快照的存储位置，现在您会感觉很乱，但是请注意以下几点：
 
@@ -201,7 +201,7 @@ const db = await this.$store.dispatch('d2admin/db/database')
 
 您将获得下图所示节点（绿色高亮区域）：
 
-![](http://qiniudn.fairyever.com/20180821091548.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821091548.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 写入：
 
@@ -214,7 +214,7 @@ db
 
 结果：
 
-![](http://qiniudn.fairyever.com/20180821092216.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821092216.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 取值：
 
@@ -235,7 +235,7 @@ const db = await this.$store.dispatch('d2admin/db/database', {
 
 假设当前登录用户的 uuid 为 uuid-A，您将获得下图所示节点（绿色高亮区域）：
 
-![](http://qiniudn.fairyever.com/20180821092920.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821092920.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 写入：
 
@@ -250,7 +250,7 @@ db
 
 结果：
 
-![](http://qiniudn.fairyever.com/20180821093132.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821093132.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 取值：
 
@@ -263,7 +263,7 @@ db.get('keyName').value() // 'value'
 
 如果是不同用户分别进行了存储（获取实例方法一样，但是存储了不同的值），存储结果将是：
 
-![](http://qiniudn.fairyever.com/20180821093321.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821093321.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 取值时将分别取到 value1，value2，value3
 
@@ -309,7 +309,7 @@ const db = await this.$store.dispatch('d2admin/db/databasePage', {
 
 您将获得下图所示节点（绿色高亮区域）：
 
-![](http://qiniudn.fairyever.com/20180821094404.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821094404.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 写入：
 
@@ -324,7 +324,7 @@ db
 
 结果：
 
-![](http://qiniudn.fairyever.com/20180821094549.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821094549.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 取值：
 
@@ -357,7 +357,7 @@ db.get('pageName').value() // page-1
 
 结果：
 
-![](http://qiniudn.fairyever.com/20180821095545.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821095545.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 三个页面取值时也会分别取到 page-1，page-2，page-3
 
@@ -376,15 +376,15 @@ const db = await this.$store.dispatch('d2admin/db/databasePage', {
 
 例如 **用户 A** 在 **页面1** 中使用上述代码取得的存储实例指向位置为：
 
-![](http://qiniudn.fairyever.com/20180821100933.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821100933.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 **用户 B** 在 **页面1** 中使用上述代码取得的存储实例指向位置为：
 
-![](http://qiniudn.fairyever.com/20180821101019.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821101019.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 如果 **用户 A**，**用户 B** 在 **页面1**，**页面2** 分别都存储了数据，最后结果大致这样：
 
-![](http://qiniudn.fairyever.com/20180821101536.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821101536.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ### 清空路由存储实例
 
@@ -433,7 +433,7 @@ this.$store.dispatch('d2admin/db/pageSet', {
 
 结果：
 
-![](http://qiniudn.fairyever.com/20180821102036.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821102036.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 使用如下代码将快照数据还原回页面：
 
@@ -470,7 +470,7 @@ for (const key in data) {
 
 每个页面的快照将会区分存放：
 
-![](http://qiniudn.fairyever.com/20180821102520.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821102520.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 #### 私有
 
@@ -499,15 +499,15 @@ const data = await this.$store.dispatch('d2admin/db/pageGet', {
 
 例如 **用户 A** 在 **页面1** 中存储了快照：
 
-![](http://qiniudn.fairyever.com/20180821103126.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821103126.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 **用户 B** 在 **页面1** 中存储了快照：
 
-![](http://qiniudn.fairyever.com/20180821103205.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821103205.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 如果 **用户 A**，**用户 B** 在 **页面1**，**页面2** 分别都存储了数据，最后结果大致这样：
 
-![](http://qiniudn.fairyever.com/20180821103306.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
+![](https://qiniucdn.fairyever.com/20180821103306.png?imageMogr2/auto-orient/thumbnail/1480x/blur/1x0/quality/100|imageslim)
 
 ### 路由快照清空
 
