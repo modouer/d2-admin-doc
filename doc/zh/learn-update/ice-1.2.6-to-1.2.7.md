@@ -149,7 +149,7 @@ export default {
 
 旧版的数据持久化文档 [VUEX 实用工具](http://app.d3collection.cn/d2-admin-doc/1.1.11/zh/plugins/vuex.html)
 
-新版的数据持久化更加强大，文档见 [数据持久化](http://app.d3collection.cn/d2-admin-doc/lastest/zh/sys-db/)
+新版的数据持久化更加强大，文档见 [数据持久化](https://doc.d2admin.fairyever.com/zh/sys-db/)
 
 请在业务代码中注意将您使用的数据持久化方法升级。
 
