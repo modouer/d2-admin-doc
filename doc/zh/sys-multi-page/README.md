@@ -38,7 +38,7 @@ $store.commit('d2admin/page/poolSet', pool)
 1. 页面组件需要有 name 属性并且 name 属性的值要与当前页面在路由信息中的 name 字段一致。
 2. 页面路由设置中要指定 `meta: { cache: true }`
 
-下面是两段示例代码，请注意高两行。
+下面是两段示例代码，请注意高亮行。
 
 页面组件：
 
