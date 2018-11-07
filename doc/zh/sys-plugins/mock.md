@@ -35,7 +35,7 @@ ajax () {
 }
 ```
 
-## mock 语法规范
+## 语法
 
 Mock.js 的语法规范包括两部分：
 
@@ -217,5 +217,10 @@ Mock.mock({
 }
 ```
 
+## 删除
 
+如果你不需要前端模拟数据，可以使用以下步骤删除相关代码：
 
+1. `npm remove mockjs --save`
+2. 删除 `src/mock`
+3. 删除 main.js 中的 mock 引用
