@@ -101,7 +101,7 @@ this.$store.commit('d2admin/menu/headerSet', menu)
 | --- | --- | --- | --- | --- |
 | path | 路由 path | 非 | String | `lodash.uniqueId('d2-menu-empty-')` |
 | title | 菜单名称 | 必选 | String | 未命名菜单 |
-| icon | 菜单图标 | 非 | String | file-o |
+| icon | 菜单图标 | 非 | String |  |
 | iconSvg | SVG 菜单图标 | 非 | String |  |
 | children | 子菜单数据 | 非 | Array |  |
 
@@ -198,6 +198,18 @@ this.$store.commit('d2admin/menu/headerSet', menu)
 ```
 
 iconSvg 字段可选值同 [icon-svg](/zh/sys-components/icon-svg.md) 的 name 属性。
+
+### 取消默认图标
+
+如果 icon 字段不设置，渲染时会自动根据是否有子菜单选择性渲染 `file-o` 和 `folder-o` 图标。如果您不希望发生这种表现，请在菜单属性中显式声明 `icon` 等于空字符串：
+
+``` js
+{
+  icon: ''
+}
+```
+
+这样会将此菜单设置为不显示任何图标。
 
 ## mutations.asideSet
 
