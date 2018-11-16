@@ -13,8 +13,9 @@
 | type | 容器模式 | 非 | String | full card ghost | full |
 | better-scroll | 使用自定义滚动条 | 非 | Boolean |  | false |
 | better-scroll-options | 自定义滚动条配置 | 非 | Object | [better-scroll](https://ustbhuangyi.github.io/better-scroll/doc/zh-hans/options.html) | 见下 |
+| scroll-delay | scroll 事件的节流间隔(ms) 只在 `better-scroll: false` 时有效 | 非 | Number |  | 10 |
 
-* better-scroll-options 默认值
+`附` better-scroll-options 默认值
 
 ``` js
 {
@@ -39,7 +40,7 @@
 为了美观，每种模式的布局都会自动在右侧保留 20px 的外边距，见上图蓝色边框右侧区域
 :::
 
-## full
+## 模式: full
 
 full 模式会生成一个无论内容多少，都会填满主区域的页面容器。
 
@@ -107,7 +108,7 @@ full 模式会生成一个无论内容多少，都会填满主区域的页面容
 
 ![](./image/container/full/bs/long-slot@2x.png)
 
-## card
+## 模式: card
 
 卡片模式适用于简单的小页面，可以方便地实现下面的布局效果：
 
@@ -185,7 +186,7 @@ full 模式会生成一个无论内容多少，都会填满主区域的页面容
 
 ![](./image/container/card/bs/long-slot-end@2x.png)
 
-## ghost
+## 模式: ghost
 
 ghost 模式适合对页面有定制需求的用户，此模式生成一个没有背景颜色的页面区域
 
@@ -302,6 +303,180 @@ ghost 模式适合对页面有定制需求的用户，此模式生成一个没�
 ```
 
 ![](./image/container/ghost/bs/long-slot@2x.png)
+
+## 事件
+
+### scroll
+
+**介绍**
+
+发生滚动时触发。
+
+**参数**
+
+`Object`
+
+| 参数名 | 介绍 | 必选 | 值类型 | 可选值 | 默认值 |
+| --- | --- | --- | --- | --- | --- |
+| x | 横向距离 | 必选 | Number |  | 0 |
+| y | 纵向距离 | 必选 | Number |  | 0 |
+
+**示例**
+
+``` vue
+<template>
+  <d2-container @scroll="({x, y}) => { scrollTop = y }">
+    {{scrollTop}}
+  </d2-container>
+</template>
+
+<script>
+export default {
+  data () {
+    return {
+      scrollTop: 0
+    }
+  }
+}
+</script>
+```
+
+## 方法
+
+### scrollToTop
+
+**介绍**
+
+返回顶部
+
+**参数**
+
+无
+
+**示例**
+
+``` vue
+<template>
+  <d2-container ref="container">
+    <el-button @click="$refs.container.scrollToTop">
+      返回顶部
+    </el-button>
+  </d2-container>
+</template>
+```
+
+### scrollBy
+
+**介绍**
+
+滚动相对位置
+
+**参数**
+
+| 参数名 | 介绍 | 必选 | 值类型 | 可选值 | 默认值 |
+| --- | --- | --- | --- | --- | --- |
+| x | 横向距离 | 必选 | Number |  | 0 |
+| y | 纵向距离 | 必选 | Number |  | 0 |
+| time | 动画时长，需要 `better-scroll: true` | 非 | Number |  | 300 |
+
+**示例**
+
+``` vue
+<template>
+  <d2-container ref="container">
+    <el-button @click="$refs.container.scrollBy(0, 30)">
+      向下滚动 30 像素
+    </el-button>
+  </d2-container>
+</template>
+```
+
+如果使用了滚动优化模式：
+
+``` vue
+<template>
+  <d2-container ref="container" better-scroll>
+    <el-button @click="$refs.container.scrollBy(0, 30, 300)">
+      向下滚动 30 像素 | 动画时长 300 ms
+    </el-button>
+  </d2-container>
+</template>
+```
+
+### scrollTo
+
+**介绍**
+
+滚动到指定位置
+
+**参数**
+
+| 参数名 | 介绍 | 必选 | 值类型 | 可选值 | 默认值 |
+| --- | --- | --- | --- | --- | --- |
+| x | 横向距离 | 必选 | Number |  | 0 |
+| y | 纵向距离 | 必选 | Number |  | 0 |
+| time | 动画时长，需要 `better-scroll: true` | 非 | Number |  | 300 |
+
+**示例**
+
+``` vue
+<template>
+  <d2-container ref="container">
+    <el-button @click="$refs.container.scrollTo(0, 30)">
+      滚动到(0, 30)像素位置
+    </el-button>
+  </d2-container>
+</template>
+```
+
+如果使用了滚动优化模式：
+
+``` vue
+<template>
+  <d2-container ref="container" better-scroll>
+    <el-button @click="$refs.container.scrollTo(0, 30, 300)">
+      滚动到(0, 30)像素位置 | 动画时长 300 ms
+    </el-button>
+  </d2-container>
+</template>
+```
+
+### scrollTop
+
+**介绍**
+
+垂直方向滚动到指定位置
+
+**参数**
+
+| 参数名 | 介绍 | 必选 | 值类型 | 可选值 | 默认值 |
+| --- | --- | --- | --- | --- | --- |
+| top | 横向距离 | 必选 | Number |  | 0 |
+| time | 动画时长，需要 `better-scroll: true` | 非 | Number |  | 300 |
+
+**示例**
+
+``` vue
+<template>
+  <d2-container ref="container">
+    <el-button @click="$refs.container.scrollTop(100)">
+      滚动到距离顶部 100 像素位置
+    </el-button>
+  </d2-container>
+</template>
+```
+
+如果使用了滚动优化模式：
+
+``` vue
+<template>
+  <d2-container ref="container" better-scroll>
+    <el-button @click="$refs.container.scrollTop(100, 300)">
+      滚动到距离顶部 100 像素位置 | 动画时长 300 ms
+    </el-button>
+  </d2-container>
+</template>
+```
 
 ## 如何选择
 
