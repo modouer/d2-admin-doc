@@ -102,6 +102,7 @@ this.$store.commit('d2admin/menu/headerSet', menu)
 | path | 路由 path | 非 | String | `lodash.uniqueId('d2-menu-empty-')` |
 | title | 菜单名称 | 必选 | String | 未命名菜单 |
 | icon | 菜单图标 | 非 | String | file-o |
+| iconSvg | SVG 菜单图标 | 非 | String |  |
 | children | 子菜单数据 | 非 | Array |  |
 
 示例：
