@@ -2,26 +2,25 @@
 home: true
 heroImage: /logo@2x.png
 actionText: Get Started →
-actionLink: /zh/guide/
+actionLink: /zh/
 features:
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, Ultra fast virtual DOM and the most economical optimization.
-- title: Rich integration
-  details: The plug-ins and components that are likely to be used are ready for you. Some come from third parties, others are designed for d2admin.
+- title: Vue driver
+  details: enjoys Vue + webpack development experience, ultra fast virtual DOM and least worry optimization.
+- title: powerful data persistence scheme
+  details: There are many ways of data persistence encapsulated internally. You can distinguish users, pages and even create snapshots of page data when data persistence occurs.
+- title: modular global state management
+  details: The system management of D2Admin is an independent module, which is divided into more than ten modules according to their functions. Each module has a clear division of labor.
+- title: intimate gadget
+  details: has prepared practical JavaScript Util and CSS common classes for you.
+- title: rich integration
+  details: Plug-ins and components are ready for you to use, designed specifically for D2Admin, or from third parties.
 - title: ElementUI component library
-  details: Integrated and robust ElementUI, and use any ElementUI component at will.
+  details: integrates perfect and powerful ElementUI, and uses any ElementUI component at will.
+- title: visual construction
+  details: supports CLI3's visualization panel and provides a flying ice version of scaffolding.
+- title: document perfect
+  details: provides detailed documentation, and the document has been updated and perfected.
+- title: active communication group
+  details: provides QQ and WeChat group for discussion and study or solve problems.
 footer: MIT Licensed | Copyright © 2018-present FairyEver
 ---
-
-**The English document will be launched in the future. Please move to the Chinese document.**
-
-**英文文档会在中文文档大致完成后推出，现请移步中文文档**
-
-```
-// install package
-npm i
-// run
-npm run dev
-// build
-npm run build
-```
