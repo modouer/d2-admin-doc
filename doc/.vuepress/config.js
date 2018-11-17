@@ -175,6 +175,7 @@ function sideBarSysComponents () {
         'icon',
         'icon-svg',
         'icon-select',
+        'ueditor',
         'markdown',
         'highlight',
         'count-up',
